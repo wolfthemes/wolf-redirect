@@ -1,0 +1,16 @@
+{
+    "name": "wolfthemes/wolf-redirect",
+    "description": "Super Simple Page Redirection",
+	"type": "wordpress-plugin",
+	"homepage": "https://github.com/wolfthemes/wolf-redirect",
+    "authors": [
+        {
+            "name": "WolfThemes",
+			"email": "contact@wolfthemes.com",
+			"homepage": "https://wolfthemes.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.6"
+	}
+}
