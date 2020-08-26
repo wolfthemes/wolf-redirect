@@ -1,16 +1,16 @@
 {
-    "name": "wolfthemes/wolf-redirect",
-    "description": "Super Simple Page Redirection",
+	"name": "wolfthemes/wolf-redirect",
+	"description": "Super simple page redirection plugin",
 	"type": "wordpress-plugin",
 	"homepage": "https://github.com/wolfthemes/wolf-redirect",
-    "authors": [
-        {
-            "name": "WolfThemes",
+	"authors": [
+		{
+			"name": "WolfThemes",
 			"email": "contact@wolfthemes.com",
 			"homepage": "https://wolfthemes.com"
-        }
-    ],
-    "require": {
+		}
+	],
+	"require": {
 		"php": ">=5.6"
 	}
 }
