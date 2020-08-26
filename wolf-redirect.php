@@ -21,9 +21,7 @@
  * https://wlfthm.es/help/
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
 if ( ! class_exists( 'Wolf_Redirect' ) ) {
 	/**
