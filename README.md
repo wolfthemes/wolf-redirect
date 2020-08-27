@@ -1,4 +1,4 @@
-# Thanks for downloading Wolf Redirect!
+# Thanks for downloading Redirect Page!
 
 Super simple page redirection plugin
 

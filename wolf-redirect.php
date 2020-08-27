@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Wolf Redirect
+ * Plugin Name: Redirect
  * Plugin URI: https://github.com/wolfthemes/wolf-redirect
  * Description: Super simple page redirection plugin
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: WolfThemes
  * Author URI: https://wolfthemes.com
  * Requires at least: 5.0
@@ -30,7 +30,7 @@ if ( ! class_exists( 'Wolf_Redirect' ) ) {
 	 * Contains the main functions for Wolf_Redirect
 	 *
 	 * @class Wolf_Redirect
-	 * @version 1.0.3
+	 * @version 1.0.4
 	 * @since 1.0.0
 	 */
 	class Wolf_Redirect {
