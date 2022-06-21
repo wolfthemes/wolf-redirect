@@ -1,14 +1,14 @@
-# Copyright (C) 2020 WolfThemes
-# This file is distributed under the same license as the Redirect package.
+# Copyright (C) 2022 WolfThemes
+# This file is distributed under the same license as the Redirect Page package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Redirect 1.0.4\n"
+"Project-Id-Version: Redirect Page 1.0.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-redirect\n"
-"POT-Creation-Date: 2020-08-27 13:26:38+00:00\n"
+"POT-Creation-Date: 2022-06-21 12:25:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -70,20 +70,24 @@ msgstr ""
 msgid "B"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#: pack/wolf-redirect/wolf-redirect.php:111 wolf-redirect.php:111
 msgid "Redirect"
 msgstr ""
 
-#: pack/wolf-redirect/wolf-redirect.php:214 wolf-redirect.php:212
+#: pack/wolf-redirect/wolf-redirect.php:212 wolf-redirect.php:212
 msgid "Redirect non-admin users only"
 msgstr ""
 
-#: pack/wolf-redirect/wolf-redirect.php:221 wolf-redirect.php:219
+#: pack/wolf-redirect/wolf-redirect.php:219 wolf-redirect.php:219
 msgid "Redirect permanently"
 msgstr ""
 
-#: pack/wolf-redirect/wolf-redirect.php:228 wolf-redirect.php:226
+#: pack/wolf-redirect/wolf-redirect.php:226 wolf-redirect.php:226
 msgid "Redirect with JS"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Redirect Page"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
