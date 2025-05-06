@@ -3,11 +3,11 @@
  * Plugin Name: Redirect Page
  * Plugin URI: https://github.com/wolfthemes/wolf-redirect
  * Description: Super simple page redirection plugin
- * Version: 1.0.5
+ * Version: 1.0.6
  * Author: WolfThemes
  * Author URI: https://wolfthemes.com
- * Requires at least: 5.0
- * Tested up to: 5.5
+ * Requires at least: 6.0
+ * Tested up to: 6.8
  *
  * Text Domain: wolf-redirect
  * Domain Path: /languages/
@@ -30,7 +30,7 @@ if ( ! class_exists( 'Wolf_Redirect' ) ) {
 	 * Contains the main functions for Wolf_Redirect
 	 *
 	 * @class Wolf_Redirect
-	 * @version 1.0.5
+	 * @version 1.0.6
 	 * @since 1.0.0
 	 */
 	class Wolf_Redirect {
@@ -104,7 +104,7 @@ if ( ! class_exists( 'Wolf_Redirect' ) ) {
 		 * @param string $post_type
 		 */
 		public function add_meta_box( $post_type ) {
-			$post_types = array( 'post', 'page', 'work', 'release', 'show', 'gallery', 'video', 'plugin', 'product', 'review', 'artist', 'theme_documentation' ); // limit meta box to certain post types
+			$post_types = array( 'post', 'page', 'work', 'release', 'show', 'gallery', 'video', 'plugin', 'product', 'review', 'artist', 'event', 'theme_documentation' ); // limit meta box to certain post types
 			if ( in_array( $post_type, $post_types ) ) {
 				add_meta_box(
 					'redirect_url'
